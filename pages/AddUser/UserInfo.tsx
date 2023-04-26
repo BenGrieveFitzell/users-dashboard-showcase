@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { User } from "./types/User";
+import { User } from "../../types/User";
 import { v4 as uuidv4 } from "uuid";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import { useRouter } from "next/router";
