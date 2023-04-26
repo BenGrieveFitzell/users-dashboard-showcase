@@ -54,7 +54,7 @@ function UserInfo() {
       </div>
       <div className="px-10 grid space-y-20 bg-white rounded-lg pt-10 pb-[300px]">
         <h2 className="text-xl font-medium">User information</h2>
-        <div className="grid grid-cols-3 space-x-4">
+        <div className="grid md:grid-cols-3 gap-x-4 gap-y-4">
           <div className="grid space-y-10">
             <div>
               <h3 className="text-gray-400 font-medium">FIRST NAME</h3>

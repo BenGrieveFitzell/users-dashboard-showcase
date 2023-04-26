@@ -17,7 +17,7 @@ function UserFunctions(props) {
   );
 
   return (
-    <div className="max-w-[900px]">
+    <div className="max-w-[800px]">
       <div className="grid space-y-5 sm:space-y-0 sm:flex sm:items-center sm:justify-between sm:px-4 mt-10">
         <div className="bg-white p-2 py-3 shadow-xl rounded-2xl flex items-center md:scale-[120%] w-[220px]">
           <BiSearch className="text-xl" />

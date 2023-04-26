@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => (
     <div className="flex md:block">
       <Sidebar />
     </div>
-    <div className="w-full m-10 md:ml-[140px] md:mt-[50px] px-10">
+    <div className="w-full m-4 md:ml-[140px] md:mt-[50px] px-10">
       <h1 className="text-3xl font-semibold">Our Users</h1>
       <UserFunctions data={data} />
     </div>
