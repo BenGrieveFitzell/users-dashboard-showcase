@@ -4,11 +4,11 @@ import User from "../components/User";
 import UserFunctions from "../components/UserFunctions";
 
 const IndexPage = ({ data }) => (
-  <div className="h-screen bg-gray-100 flex">
+  <div className="md:h-screen bg-gray-100 flex">
     <div className="flex md:block">
       <Sidebar />
     </div>
-    <div className="w-full m-4 md:ml-[140px] md:mt-[50px] px-10">
+    <div className="w-full mt-4 md:ml-[100px] md:mt-[50px] px-10 pb-20">
       <h1 className="text-3xl font-semibold">Our Users</h1>
       <UserFunctions data={data} />
     </div>
