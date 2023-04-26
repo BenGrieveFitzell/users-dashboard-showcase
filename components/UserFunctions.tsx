@@ -37,7 +37,7 @@ function UserFunctions(props) {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 mt-10 sm:scale-[110%] sm:justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 sm:scale-[110%] sm:justify-items-center">
         {filteredUsers.map((user) => (
           <div key={user.id}>
             <User
